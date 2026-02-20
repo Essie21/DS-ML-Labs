@@ -1,2 +1,3 @@
 # DS-ML-Labs
-Weekly lab assignments for Data Science and Machine Learning programme
+
+A comprehensive repository documenting my Data Science and Machine Learning lab work, including practical implementations, detailed documentation, and professional reflections on learning progress.
