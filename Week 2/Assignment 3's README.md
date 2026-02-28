@@ -149,7 +149,7 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 #### String Replacement & Startswith
 ![String Replacement & Startswith](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/String%20Replacement%20and%20Startwith.png?raw=true)
 
-##### Startswith & Endswith
+#### Startswith & Endswith
 ![Startswith & Endswith](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Startswith%20and%20Endswith.png?raw=true)
 
 
