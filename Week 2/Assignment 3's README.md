@@ -158,65 +158,46 @@ RIGHT SHIFT (>>): 55 >> 2 = 13 (Remove last 2 digits)
 ## 📸 Results & Screenshots
 All lab outputs have been executed successfully in Jupyter Notebook.
 
-#### Arithmetic Operators
-![Arithmetic Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Arithmetic%20Operators.png?raw=true)
+#### Case Conversions
+![Case Conversions](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Case%20Conversions.png?raw=true)
 
-#### Comparison Operators
-![Comparison Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Comparison%20Operators.png?raw=true)
+#### Validation Methods
+![Validation Methods](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Validation%20Methods.png?raw=true)
 
-#### Logical Operators
-![Logical Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Logical%20Operators.png?raw=true)
+#### Split and Join
+![Split and Join](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Split%20and%20Join.pngraw=true)
 
-#### Assignment Operator
-![Assignment Operator (1)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(1).png?raw=true)
+#### String Replacement & Startswith
+![String Replacement & Startswith](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/String%20Replacement%20and%20Startwith.png?raw=true)
 
-![Assignment Operator (2)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(2).png?raw=true)
-
-![Assignment Operator (3)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(3).png?raw=true)
-
-#### Bitwise Operators
-![Bitwise Operators (1)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(1).png?raw=true)
-
-![Bitwise Operators (2)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(2).png?raw=true)
-
-![Bitwise Operators (3)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(3).png?raw=true)
-
-![Bitwise Operators (4)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(4).png?raw=true)
-
-#### Membership Operators
-![Membership Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Membership%20Operators.png?raw=true)
-
-#### Identity Operators
-![Membership Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Identity%20Operators.png?raw=true)
+##### Startswith & Endswith
+![Startswith & Endswith](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Startswith%20and%20Endswith.png?raw=true)
 
 
 
 ## 🧠 Lessons Learned
 
-1. Operator Types and Applications
-- Arithmetic operators perform mathematical calculations and are fundamental for numerical computations.
-- Comparison operators return boolean values, enabling conditional logic.
-- Logical operators combine multiple conditions.
-- Bitwise operators work directly with binary representations for advanced operations.
-- Membership operators validate presence in collections, while identity operators verify object references in memory
+1. String Manipulation Mastery
+- String operations are fundamental to text processing in Python.
+- Methods like upper(), lower(), split(), and join() enable powerful text transformations.
+- String validation methods (isdigit, isalpha, islower, isupper) provide boolean checks for conditional logic.
+- Detection methods like startswith() and endswith() support pattern matching essential for data validation
+
 
   
 2. Common Mistakes to Avoid
 
-- Confusing assignment (=) with comparison (==)
-- Using and/or instead of bitwise &/| operators
-- Misunderstanding floor division vs regular division
-- Attempting unsupported operations on incompatible data types
-- Forgetting that bitwise operations work on binary representations
-- Confusing == (equality) with is (identity) operators
-- Assuming two lists with same values are the same object in memory
+- Forgetting that isalpha() returns False if the string contains spaces
+- Confusing split() delimiter behavior (it removes the delimiter)
+- Using join() on non-iterable objects
+- Assuming string methods modify the original string (they don't!)
+- Overlooking case sensitivity in startswith() and endswith() checks
 
 3. Best Practices
 
-- Use appropriate operator types for specific tasks
-- Understand operator precedence to avoid unexpected results
-- Use parentheses for clarity in complex expressions
-- Test operators with simple values before complex operations
-- Use == for value comparison and is for object identity checks
-- Leverage membership operators for cleaner, more readable code when     validating data presence
+- Use descriptive variable names to distinguish original strings from processed versions
+- Remember that strings are immutable—methods return new strings, never modify originals
+- Chain string methods efficiently when performing multiple operations
+- Use split() with appropriate delimiters based on your data structure
+- Validate strings with isdigit(), isalpha() before processing assumptions
 
