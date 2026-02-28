@@ -165,7 +165,7 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 ![Validation Methods](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Validation%20Methods.png?raw=true)
 
 #### Split and Join
-![Split and Join](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Split%20and%20Join.pngraw=true)
+![Split and Join](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/Split%20and%20Join.png?raw=true)
 
 #### String Replacement & Startswith
 ![String Replacement & Startswith](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%20%203/String%20Replacement%20and%20Startwith.png?raw=true)
