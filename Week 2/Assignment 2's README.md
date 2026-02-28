@@ -8,6 +8,8 @@
 3. Learn comparison operators for boolean evaluations
 4. Implement logical operators for complex condition handling
 5. Explore bitwise operations at the binary level
+6. Use Membership Operators to check value existence in sequences
+7. Apply Identity Operators to compare object memory locations
 
 
 
@@ -79,6 +81,22 @@
 - Converted between decimal and binary representations
 
 
+#### Step 7: Apply Membership Operators
+
+- IN operator to check if value exists in a sequence
+- NOT IN operator to verify absence of values
+- Works with strings, lists, tuples, sets, and dictionaries
+- Returns boolean True/False values
+- Useful for validation and membership testing
+
+
+#### Step 8: Understand Identity Operators
+
+- IS operator to check object identity in memory
+- IS NOT operator to verify different memory locations
+- Compares memory addresses, not values
+
+
 
 ## 💻 Commands Executed
 ```
@@ -127,6 +145,17 @@ NOT (~): ~55 = -56 (Binary: 1 1 0 0 1 0 0 0)
 LEFT SHIFT (<<): 55 << 2 = 220 (Add 2 zeros on right)
 RIGHT SHIFT (>>): 55 >> 2 = 13 (Remove last 2 digits)
 
+#### Membership Operators
+- a = [1, 2, 3, 4, 5]
+- print(2 in a)  # True (2 exists in list a)
+- print(8 in a)  # False (8 not in list a)
+
+#### Identity Operators
+- a = [1, 2, 3, 4, 5]
+- b = [1, 2, 3, 4, 5]
+- print(a is b)  # False (different memory locations)
+- print(a is not b)  # True (a and b occupy different memory)
+
 ```
 
 ## 📸 Results & Screenshots
@@ -157,6 +186,13 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 
 ![Bitwise Operators (4)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(4).png?raw=true)
 
+#### Membership Operators
+![Membership Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Membership%20Operators.png?raw=true)
+
+#### Identity Operators
+![Membership Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Identity%20Operators.png?raw=true)
+
+
 
 ## 🧠 Lessons Learned
 
@@ -165,6 +201,7 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 - Comparison operators return boolean values, enabling conditional logic.
 - Logical operators combine multiple conditions.
 - Bitwise operators work directly with binary representations for advanced operations.
+- Membership operators validate presence in collections, while identity operators verify object references in memory
 
   
 2. Common Mistakes to Avoid
@@ -174,6 +211,8 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 - Misunderstanding floor division vs regular division
 - Attempting unsupported operations on incompatible data types
 - Forgetting that bitwise operations work on binary representations
+- Confusing == (equality) with is (identity) operators
+- Assuming two lists with same values are the same object in memory
 
 3. Best Practices
 
@@ -181,3 +220,5 @@ All lab outputs have been executed successfully in Jupyter Notebook.
 - Understand operator precedence to avoid unexpected results
 - Use parentheses for clarity in complex expressions
 - Test operators with simple values before complex operations
+- Use == for value comparison and is for object identity checks
+- Leverage membership operators for cleaner, more readable code when     validating data presence
