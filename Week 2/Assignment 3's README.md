@@ -27,132 +27,111 @@
 - Created a new notebook file for Assignment 3
 
 
-#### Step 2: Implement Arithmetic Operators (with x=20, y=4)
+#### Step 2:  Explore Basic String Operations
 
-- Addition (+) operation  resulting in 24
-- Subtraction (-) operation resulting in 16
-- Multiplication (*) using asterisk notation resulting in 80
-- Division (/) with forward slash resulting in 5.0
-- Floor Division (//) to get whole numbers without decimals
-- Modulo (%) operation to find remainders
-- Exponential (**) using double asterisks for power calculations
+- Assigned string values to variables
+- Printed string variables to display output
+- Verified case changes in output
 
 
-#### Step 3: Apply Comparison Operators
+#### Step 3: Implement String Case Conversion Methods
 
-- Greater than (>) comparison operations
-- Less than (<) comparison operations
-- Equal to (==) checking value equality
-- Greater than or equal to (>=) compound comparisons
-- Less than or equal to (<=) range checking
-- Not Equal to (!=) inequality verification
-- Observed Boolean outputs (True / False)
+- upper() method to convert all letters to uppercase
+- lower() method to convert all letters to lowercase
+- Returned new strings without modifying originals
 
 
-#### Step 4: Master Logical Operators
+#### Step 4: Learn String Validation Methods
 
-- AND operator (both conditions must be true)
-- OR operator (at least one condition must be true)
-- NOT operator (negates the condition set)
+- isalpha() to check if all characters are alphabetic
+- isdigit() to check if all characters are digits
+- islower() to verify if all letters are lowercase
+- isupper() to verify if all letters are uppercase
+- Returns boolean True/False values for validation
 
+#### Step 5: Master String Splitting & Joining Operations
 
-#### Step 5: Practice Assignment Operators
-
-- Simple assignment (=) to assign values
-- Addition assignment (+=) to add and assign
-- Subtraction assignment (-=) to subtract and assign
-- Multiplication assignment (*=) to multiply and assign
-- Division assignment (/=) for division results
-- Floor division assignment (//=) for whole number division
-- Exponentiation assignment (**=) for power operations
+- Used split() to break strings into lists
+- Specified delimiters for custom splitting
+- Applied join() to combine list elements into strings
+- Specified separator between joined elements
 
 
-#### Step 6: Explore Bitwise Operations
+#### Step 6:  Practice String Modification and Detection
 
-- AND (&) operator for binary AND operations
-- OR (|) operator for binary OR operations
-- Exclusive OR (^) for XOR calculations
-- NOT (~) operator to negate binary digits
-- Left Shift (<<) to shift bits left and multiply by 2^n
-- Right Shift (>>) to shift bits right and divide by 2^n
-- Converted between decimal and binary representations
-
-
-#### Step 7: Apply Membership Operators
-
-- IN operator to check if value exists in a sequence
-- NOT IN operator to verify absence of values
-- Works with strings, lists, tuples, sets, and dictionaries
-- Returns boolean True/False values
-- Useful for validation and membership testing
-
-
-#### Step 8: Understand Identity Operators
-
-- IS operator to check object identity in memory
-- IS NOT operator to verify different memory locations
-- Compares memory addresses, not values
-
+- Implemented replace() for substring substitution
+- Used startswith() to check string beginnings
+- Applied endswith() to verify string endings
+- Returns boolean values for conditional logic
+- Tested various string patterns
 
 
 ## 💻 Commands Executed
 ```
-#### Arithmetic Operators
-- x = 20, y = 4
-- print(x + y)  # 24
-- print(x - y)  # 16
-- print(x * y)  # 80
-- print(x / y)  # 5.0
-- print(x // y)  # 5
-- print(x % y)  # 0 (remainder)
-- x = 5, y = 3
-- print(x ** y)  # 125
+#### Basic String Operations
+- name_ = "ParoCyber LLC"
+- print(name_)  # ParoCyber LLC
 
-#### Comparison Operators
-- x = 54, y = 77
-- print(x > y)  # False
-- print(x < y)  # True
-- print(x == y)  # False
-- print(x >= y)  # False
-- print(x <= y)  # True
-- print(x != y)  # True
+#### String Case Conversion
+- name_ = "ParoCyber LLC"
+- name_ = name_.upper()
+- print(name_)  # PAROCYBER LLC
 
-#### Logical Operators
-- x = 32, y = 21
-- print(x > 30 and y < 25)  # True
-- not (x < 32)  # True (negates false to true)
+- name_ = name_.lower()
+- print(name_)  # parocyber llc
 
-#### Assignment Operators
-- x = 55  # Assign 55
-- x += 78  # Adds 78, result 133
-- x -= 23  # Subtracts 23
-- x *= 3  # Multiplies by 3, result 30
-- x /= 2  # Divides by 2, result 5.0
-- x //= 3  # Floor divides, result 3
-- x **= 3  # Exponentiates, result 8
+#### String Validation Methods
+- name_ = "ParoCyber LLC"
+- result = name_.isalpha()
+- print(result)  # False (contains space and numbers)
 
-#### Bitwise Operators
-- x = 55 (Binary: 00110111)
-- y = 70 (Binary: 01000110)
+- Name_ = "ParoCyber LLC"
+- result = Name_.isdigit()
+- print(result)  # False (not all digits)
 
-AND (&): x & y = 6 (Binary: 00000110)
-OR (|): x | y = 119 (Binary: 01110111)
-XOR (^): x ^ y = 113 (Binary: 01110001)
-NOT (~): ~55 = -56 (Binary: 1 1 0 0 1 0 0 0)
-LEFT SHIFT (<<): 55 << 2 = 220 (Add 2 zeros on right)
-RIGHT SHIFT (>>): 55 >> 2 = 13 (Remove last 2 digits)
+- result = Name_.islower()
+- print(result)  # False (contains uppercase letters)
 
-#### Membership Operators
-- a = [1, 2, 3, 4, 5]
-- print(2 in a)  # True (2 exists in list a)
-- print(8 in a)  # False (8 not in list a)
+- result = Name_.isupper()
+- print(result)  # False (contains lowercase letters)
 
-#### Identity Operators
-- a = [1, 2, 3, 4, 5]
-- b = [1, 2, 3, 4, 5]
-- print(a is b)  # False (different memory locations)
-- print(a is not b)  # True (a and b occupy different memory)
+#### String Splitting Operations
+- Flowers = "Last week couples got flowers"
+- Flowers.split(" ")
+- # Output: ['Last', 'week', 'couples', 'got', 'flowers']
 
+#### String Joining Operations
+- Flowers = "Last week couples got flowers"
+- word = Flowers.split(" ")
+- result = " ".join(word)
+- print(result)  # Last week couples got flowers
+
+- Flowers = "Last week couples got flowers"
+- words = Flowers.split(" ")
+- result = "_".join(words)
+- print(result)  # Last_week_couples_got_flowers
+
+#### String Replacement
+- Flowers = "Last week couples got flowers"
+- word = Flowers.replace("flowers", "chocolate")
+- print(word)  # Last week couples got chocolate
+
+####String Detection Methods
+- Flower = "roses"
+- Flower.startswith("s")
+- # Output: False (roses does not start with "s")
+
+- Flower = "roses"
+- Flower.startswith("r")
+- # Output: True (roses starts with "r")
+
+- Flower = "Daisy"
+- Flower.endswith("e")
+- # Output: False (Daisy does not end with "e")
+
+- Flower = "Daisy"
+- Flower.endswith("y")
+- # Output: True (Daisy ends with "y")
 ```
 
 ## 📸 Results & Screenshots
