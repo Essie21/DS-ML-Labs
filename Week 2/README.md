@@ -1,4 +1,4 @@
-## Python Data Structures: Lists, Tuples & Dictionaries
+## Python Data Structures: Operators
 
 
 ## 🎯 Objectives
@@ -133,4 +133,51 @@ RIGHT SHIFT (>>): 55 >> 2 = 13 (Remove last 2 digits)
 All lab outputs have been executed successfully in Jupyter Notebook.
 
 #### Arithmetic Operators
-![List Creation and Operations (1)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%201/List%20Creation%20and%20Operations%20(1).png?raw=true)
+![Arithmetic Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Arithmetic%20Operators.png?raw=true)
+
+#### Comparison Operators
+![Comparison Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Comparison%20Operators.png?raw=true)
+
+#### Logical Operators
+![Logical Operators](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Logical%20Operators.png?raw=true)
+
+#### Assignment Operator
+![Assignment Operator (1)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(1).png?raw=true)
+
+![Assignment Operator (2)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(2).png?raw=true)
+
+![Assignment Operator (3)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Assignment%20Operator%20(3).png?raw=true)
+
+#### Bitwise Operators
+![Bitwise Operators (1)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(1).png?raw=true)
+
+![Bitwise Operators (2)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(2).png?raw=true)
+
+![Bitwise Operators (3)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(3).png?raw=true)
+
+![Bitwise Operators (4)](https://github.com/Essie21/DS-ML-Labs/blob/main/Week%202/Screenshots%20of%20Assignment%202/Bitwise%20Operators%20(4).png?raw=true)
+
+
+## 🧠 Lessons Learned
+
+1. Operator Types and Applications
+- Arithmetic operators perform mathematical calculations and are fundamental for numerical computations.
+- Comparison operators return boolean values, enabling conditional logic.
+- Logical operators combine multiple conditions.
+- Bitwise operators work directly with binary representations for advanced operations.
+
+  
+2. Common Mistakes to Avoid
+
+- Confusing assignment (=) with comparison (==)
+- Using and/or instead of bitwise &/| operators
+- Misunderstanding floor division vs regular division
+- Attempting unsupported operations on incompatible data types
+- Forgetting that bitwise operations work on binary representations
+
+3. Best Practices
+
+- Use appropriate operator types for specific tasks
+- Understand operator precedence to avoid unexpected results
+- Use parentheses for clarity in complex expressions
+- Test operators with simple values before complex operations
